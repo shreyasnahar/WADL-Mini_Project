@@ -1,0 +1,65 @@
+.App {
+  text-align: center;
+  padding: 5%;
+  align-items: center;
+  font: #2e3034;
+}
+
+.navbar{
+  height: 5%;
+  padding: 1% 2%;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  border: 5px #488eff solid;
+  border-radius: 20px;
+}
+.home{
+  height: 60%;
+  width: 60%;
+  margin: 5% auto;
+  border-radius: 20px;
+  border: 1px #424448 solid;
+}
+.pay{
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  margin: 5%;
+  padding: 5%;
+}
+a{
+  margin: 0 5%;
+  text-decoration: none;
+  color: #488eff;
+  font-size: larger;
+}
+.links{
+  display: flex;
+  justify-content: space-between;
+}
+.addr{
+  overflow-x: scroll;
+  border: 1px #488eff solid;
+  padding: 5px;
+  border-radius: 3px;
+}
+.friend{
+  border: 1px #488eff solid;
+  border-radius: 5px;
+  margin: 5% 3%;
+  padding: 5% 3%;
+}
+.main{
+  height: 25%;
+  width: 25%;
+  border-radius: 50%;
+  box-shadow: 4px;
+}
+.logo{
+  height: 10%;
+  width: 10%;
+}
+h3{
+  color: #488eff;
+}
